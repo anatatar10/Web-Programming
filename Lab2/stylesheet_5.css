@@ -1,0 +1,19 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 20px;
+}
+.grid div {
+    background-color: #3498db;
+}
+.grid div:hover {
+    background-color: red;
+}
+.grid div:focus {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,239 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Includes padding and border in total width/height */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherits color from parent instead of default blue */
+}
+
+/* Shift Oracle SVG logo to the left for alignment */
+.u30-oicn {
+  margin-left: -80px;
+  padding-right: 20px; /* Extra spacing after logo */
+}
+
+.search-icon {
+  padding-right: 10px; /* Spacing between search icon and flag */
+}
+
+/* Container */
+
+.nav-menu ul {
+  margin-left: 70px; /* Push nav items away from logo */
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto; /* Center container horizontally within its container */
+}
+
+/* navbar */
+
+.top-bar {
+  background-color: #302D2A; /* Dark background */
+  color: #fff;
+}
+
+/* Flexbox: align content inside navbar on the center */
+.top-bar .inner {
+  display: flex;
+}
+
+/* Left section of navbar: logo + nav menu */
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Horizontal spacing between menu items */
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.9rem;
+  margin-left: 100px; /* Push icons to the right */
+}
+
+.top-right .lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-right .lang-selector img {
+  width: 20px;
+}
+
+.btn {
+  width: 170px;
+  display: flex;
+  gap: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 14px;
+  height: 44px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  align-items: center;
+}
+
+.view-link {
+  background-color: #1a1a1a;
+}
+
+.contact-link {
+  border: 2px solid white;
+}
+
+
+
+/* Java details */
+
+.java-details {
+  background-color: #161513;
+  padding: 25px 0;
+  font-size: 0.9rem;
+  color: white;
+}
+
+/* Java is the language of...*/
+
+.main-banner {
+  background-color: #302D2A;
+  color: #fff;
+}
+
+.main-banner .banner-content {
+  display: flex;
+  align-items: center;
+}
+
+.banner-text, .banner-image {
+  margin-top: -50px;
+}
+
+.banner-text h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.banner-text p {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  white-space: nowrap; /* Keeps text on one line, even if long */
+}
+
+.banner-text .btn {
+  background-color: #fff;
+  color: black;
+  width: 280px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.banner-image img {
+  width: 400px;
+}
+
+/* Tabs */
+
+.tabs {
+  background-color: #fff;
+  padding: 20px 20px;
+  display: flex;
+  gap: 50px; /* Horizontal spacing between tabs */
+  align-items: center;
+}
+
+.tabs .container {
+  display: flex;
+  gap: 20px; /* gapt between tabs*/
+}
+
+.tabs a {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent; /* Base line for tab underline effect */
+}
+
+/* Styling the active tab to highlight it */
+.tabs a.active {
+  border-bottom: 3px solid green;
+  color: black;
+}
+
+/* Download list */
+
+.download-list {
+  list-style: none;
+  margin-top: 10px;
+  flex-direction: column; /* show vertically */
+  gap: 2px; /* gap between versions */
+}
+
+.content-section {
+  background-color: #F1EFED;
+  padding: 20px;
+}
+
+.content-section h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.download-list li {
+  margin: 8px 0;
+}
+
+.download-list li a {
+  color: #005a9c; 
+}
+
+/* Download banner */
+
+.download-container {
+  background-color: #4a5757; 
+  color: white;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; /* centered on the green space*/
+  padding: 25px 40px;
+  margin-top: 20px;
+}
+
+.download-btn {
+  background-color: #5c7e4f;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; 
+}
+
+.download-btn:hover {
+  background-color: #4e6d44;
+}
